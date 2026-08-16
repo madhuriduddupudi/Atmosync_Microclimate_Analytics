@@ -190,3 +190,5 @@ The solution can help operations teams:
 ## Author
 
 **Madhuri Duddupudi**
+
+Data Analytics | Python | SQL | Power BI | Data Visualization
