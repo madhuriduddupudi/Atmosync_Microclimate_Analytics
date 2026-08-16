@@ -1,0 +1,7 @@
+dbt-env/
+logs/
+snowflake_key.p8
+snowflake_key.pub
+__pycache__/
+*.pyc
+.env

@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: staging_telemetry
+    description: "Staging model for AtmoSync container telemetry data."
+    columns:
+      - name: CONTAINER_ID
+        tests:
+          - not_null
+
+      - name: TIMESTAMP
+        tests:
+          - not_null
+
+      - name: CARGO_TYPE
+        tests:
+          - not_null
+
+      - name: TEMPERATURE
+        tests:
+          - not_null
+
+      - name: HUMIDITY
+        tests:
+          - not_null
+
+      - name: VIBRATION
+        tests:
+          - not_null

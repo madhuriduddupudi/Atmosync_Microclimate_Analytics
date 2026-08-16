@@ -1,0 +1,16 @@
+{{ config(materialized='table') }}
+
+SELECT
+    CONTAINER_ID,
+    CARGO_TYPE,
+    TEMPERATURE,
+    HUMIDITY,
+    VIBRATION,
+    ORIGIN,
+    DESTINATION,
+    ALERT_STATUS,
+    RECOMMENDED_ACTION,
+    DISTANCE_REMAINING,
+    SPOILAGE_RISK,
+    TIMESTAMP
+FROM ATMOSYNC_DB.WAREHOUSE."container_telemetry"
